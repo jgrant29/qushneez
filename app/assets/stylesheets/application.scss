@@ -1,0 +1,61 @@
+@import "bootstrap";
+@import "welcome";
+@import "font-awesome";
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
+}
+
+
+.navbar-default {
+    background-color: #fff !important;
+    border: none;
+  }
+
+.orange {
+  color: #FF851B;
+}
+
+.grey {
+  color: #aaa;
+}
+
+.handwritting {
+  font-family: 'Indie Flower', cursive;
+}
+  /* bootstrap 3 helpers */
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+#sidebar.affix-top {
+    position: static;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 80px;
+}
+
+.social-padding {
+  padding-right: 2rem;
+}
